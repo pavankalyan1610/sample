@@ -1,0 +1,43 @@
+.card{
+    width: 360px;
+    height: 300px;
+}
+.card{
+    margin: 10px;
+}
+.card-img-top{
+    width: 245px;
+    height: 150px;
+    margin-top: 25px;
+}
+.card-footer{
+    text-align: center;
+}
+.element{
+    width: 700px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.draggable {
+    width: 245px;
+    height: 150px;
+    margin-top: 25px;
+    /* min-width: 50px;
+    width: 100px;
+    min-height: 50px;
+    height: 100px;
+    background: #EEE;
+    border: 1px solid #AAA; */
+  }
+  
+  .ui-resizable-se {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 16px 16px;
+    border-color: transparent transparent #AAA transparent;
+    background: none;
+  }

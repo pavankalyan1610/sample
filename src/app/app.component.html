@@ -1,0 +1,36 @@
+<!-- <p ngMoveit>Hello! how are you</p> -->
+<!-- <div class="container" style="width: 500px;height: 500px;" #bounds>
+  <div ngMoveit [bounds]="bounds">
+    <div>Can't get out of my box</div>
+  </div>
+</div> -->
+<!-- <div ngDraggable ngResizable>Draggable</div> -->
+<router-outlet></router-outlet>
+<!-- <button class="btn btn-success">Submit</button> -->
+<!-- <div class="container" id="dom">
+  <div class="row">
+    <div class="card" *ngFor="let image of images;let i=index" style="width: 18rem;">
+      <div class="card-header">Images
+        <input style="float: right;" (click)="selectImage(i)" type="checkbox">
+      </div>
+      <div class="card-body">
+        <img [src]="image" class="card-img-top" alt="...">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+      <div class="card-footer">Price</div>
+    </div>
+    <img [src]="converted_image">
+  </div>
+</div> -->
+<!-- <div id="div1" ondrop="drop($event)" ondragover="allowDrop($event)"></div> -->
+<!-- <div class="element" id="element"> -->
+<!-- <span *ngFor="let image of images"> -->
+<div style="width: 500px;height:500px;" #bounds>
+  <img ngDraggable ngResizable class="card-img-top" [bounds]="bounds" [src]="images[1]" alt="...">
+</div>
+<!-- </span> -->
+<!-- <img draggable="true" id="image" class="card-img-top" [src]="images[1]" alt="..."> -->
+<!-- </div> -->
+<!-- <div class='draggable resizable' id="drag">
+</div> -->
